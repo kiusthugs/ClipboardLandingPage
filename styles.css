@@ -102,6 +102,12 @@ footer {
     margin-top: 150px;
 }
 
+#footerLink a {
+    display: block;
+    text-decoration: none;
+    margin: 25px 0;
+    color: hsl(210, 10%, 33%);
+}
 footer p {
     color: rgba(86,89,96,255);
     margin-top: 35px;
@@ -266,6 +272,9 @@ footer p {
     footer a {
         text-decoration: none;
         color: hsl(210, 10%, 33%); 
-        margin-top: 20px;
+    }
+
+    #footerLink a {
+        margin: 20px 0 0 0;
     }
 }
