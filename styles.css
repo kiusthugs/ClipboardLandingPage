@@ -123,7 +123,10 @@ footer p {
 
 .attribution {
     margin: 0;
+    background-color:rgba(243,248,250,255);
 }
+
+
 
 @media only screen and (min-width: 600px) {
     main, footer div {
@@ -258,10 +261,6 @@ footer p {
     #socialIcons img {
         height: 25px;
         width: 25px;
-    }
-
-    .attribution {
-        background-color:rgba(243,248,250,255);
     }
 
     footer a {
