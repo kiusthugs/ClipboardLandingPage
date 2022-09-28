@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://clipboardlandingepagekp.netlify.app/](https://your-live-site-url.com)
+- Live Site URL: [https://clipboardlandingepagekp.netlify.app/]
 
 ## My process
 
