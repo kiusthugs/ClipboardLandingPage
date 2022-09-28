@@ -49,8 +49,12 @@
         devices. Our Mac and iOS apps will help you organize everything.</p>
 
       <!--Desktop photo-->
+      <div id="columnLayout">
+        <div id="desktopContent">
+        <div id="col1">
       <img id="imgComputer" src="images/image-computer.png" alt="computer">
-
+    </div>
+    <div id="col2">
       <h3>Quick Search</h3>
 
       <p>Easily search your snippets by content, category, web address, application, and more.</p>
@@ -62,6 +66,9 @@
       <h3>Complete History</h3>
 
       <p>Retrieve any snippets from the first moment you started using the app.</p>
+    </div>
+    </div>
+    </div>
     </section>
 
     <section>
@@ -76,34 +83,40 @@
       <h3>Supercharge your workflow</h3>
 
       <p>We’ve got the tools to boost your productivity.</p>
-
+      <div id="tripleIcon">
       <!--List photo-->
+      <div id="iconCol1" class="iconClass">
       <img class="descIcon" id="marginPush" src="images/icon-blacklist.svg" alt="list icon">
       <h3>Create blacklists</h3>
 
       <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-
+    </div>
       <!--Text logo-->
+      <div id="iconCol2" class="iconClass">
       <img class="descIcon" src="images/icon-text.svg" alt="letter a with cursor">
 
       <h3>Plain text snippets</h3>
 
       <p>Remove unwanted formatting from copied text for a consistent look.</p>
-
+    </div>
+    <div id="iconCol3" class="iconClass">
       <!--Eye Logo-->
       <img class="descIcon" src="images/icon-preview.svg" alt="eyeball">
       <h3>Sneak preview</h3>
 
       <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+    </div>
+    </div>
     </section>
     <!--Company Logos-->
-
     <div id="companyLogos">
-    <img src="images/logo-google.png" alt="google logo">
-    <img src="images/logo-ibm.png" alt="ibm logo">
-    <img src="images/logo-microsoft.png" alt="microsoft logo">
-    <img src="images/logo-hp.png" alt="hp logo">
-    <img src="images/logo-vector-graphics.png" alt="vector graphics logo">
+      <div>
+      <img src="images/logo-google.png" alt="google logo" id="compLogo1">
+    </div>
+    <div><img src="images/logo-ibm.png" alt="ibm logo" id="compLogo2"></div>
+    <div><img src="images/logo-microsoft.png" alt="microsoft logo" id="compLogo3"></div>
+    <div><img src="images/logo-hp.png" alt="hp logo" id="compLogo4"></div>
+    <div><img src="images/logo-vector-graphics.png" alt="vector graphics logo" id="compLogo5"></div>
     </div>
 
     <h2>Clipboard for iOS and Mac OS</h2>
@@ -114,26 +127,32 @@
     <button class="iosButton">Download for iOS</button>
     <button class="macButton">Download for Mac</button>
   </main>
-  <div></div>
   <footer>
-  <!--Smaller Clipboard logo-->
-  <img id="clipboardSmall" src="images/logo.svg" alt="clipboard logo small">
-  <p>FAQs</p>
-  <p>Contact Us</p>
-  <p>Privacy Policy</p>
-  <p>Press Kit</p>
-  <p>Install Guide</p>
-  <!--Social media icons-->
-  <div id="socialIcons">
-  <img src="images/icon-facebook.svg" alt="facebook logo">
-  <img src="images/icon-twitter.svg" alt="twitter logo">
-  <img src="images/icon-instagram.svg" alt="instagram logo">
-</div>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://www.linkedin.com/in/kirt-perez-084017189/">Kirt Perez</a>.
-    </p>
+    <div id="footFlex">
+    <!--Smaller Clipboard logo-->
+    <div id="footCol">
+    <img id="clipboardSmall" src="images/logo.svg" alt="clipboard logo small">
+  </div>
+  <div id="footerLink">
+    <p>FAQs</p>
+    <p>Contact Us</p>
+    <p>Privacy Policy</p>
+    <p>Press Kit</p>
+    <p>Install Guide</p>
+  </div>
+    <!--Social media icons-->
+    <div id="socialIcons">
+      <img src="images/icon-facebook.svg" alt="facebook logo">
+      <img src="images/icon-twitter.svg" alt="twitter logo">
+      <img src="images/icon-instagram.svg" alt="instagram logo">
+    </div>
+  </div>
   </footer>
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9"
+      target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/kirt-perez-084017189/">Kirt Perez</a>.
+  </p>
 </body>
 
 </html>

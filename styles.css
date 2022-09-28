@@ -121,15 +121,142 @@ footer p {
     margin: 0;
 }
 
-@media only screen and (min-width: 800px) {
-    main {
-        max-width: 767px;
+@media only screen and (min-width: 600px) {
+    main, footer div {
+        max-width: 608px;
         margin: 0 auto;
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1080px) {
     header {
         background-image: url("images/bg-header-desktop.png")
+    }
+
+    button {
+        display: inline-block;
+        padding: 20px 60px;
+    }
+
+    .iosButton {
+        margin-right: 10px;
+    }
+
+    .macButton {
+        margin-left: 10px;
+    }
+
+    #desktopContent {
+        display: flex;
+        text-align: left;
+    }
+
+    #col1 {
+        width: 100vw;
+        margin-left: -290px;
+        margin-right: 100px;
+    }
+
+    #col2 {
+        margin-right: -150px;
+    }
+    
+    #tripleIcon {
+        display: flex;
+        margin-top: 50px
+    }
+
+    #tripleIcon img {
+        height: 35px;
+        width: 40px;
+    }
+
+    #marginPush {
+        margin: 25px 0;
+    }
+
+    #iconCol1 {
+        margin-left: -150px;
+    }
+
+    #iconCol1, #iconCol2, #iconCol3 {
+        width: 100vw;
+    }
+
+    #iconCol3 {
+        margin-right: -150px;
+    }
+    
+    #companyLogos {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: none;
+    }
+    
+    #companyLogos div {
+        width: 100vw;
+        margin: 100px 0;
+    }
+
+    #compLogo1 {
+        margin-left: -300px;
+    }
+    
+    #compLogo2 {
+        margin-left: -150px;
+    }
+   
+
+    
+    #compLogo4 {
+        margin-right: -150px;
+    }
+    
+    #compLogo5 {
+        margin-right: -300px;
+    }
+    
+    footer {
+        padding: 25px 0;
+    }
+
+    #footFlex {
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #footFlex div {
+        width: 100vw;
+    }
+    
+    #footerLink {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: left;
+    }
+
+    #footCol {
+        margin: 0;
+        margin-left: -300px;
+    }
+
+    #socialIcons {
+        justify-content: space-around;
+        margin-right: -250px;
+        margin-left: 20px;
+    }
+
+    #socialIcons img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .attribution {
+        background-color:rgba(243,248,250,255);
     }
 }
